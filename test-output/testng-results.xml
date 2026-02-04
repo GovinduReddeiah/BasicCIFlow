@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-05T00:27:20 IST" name="Suite" finished-at="2026-02-05T00:27:32 IST" duration-ms="11702">
+  <suite started-at="2026-02-05T01:29:38 IST" name="Default suite" finished-at="2026-02-05T01:29:56 IST" duration-ms="17811">
     <groups>
     </groups>
-    <test started-at="2026-02-05T00:27:20 IST" name="BasicTest" finished-at="2026-02-05T00:27:32 IST" duration-ms="11702">
+    <test started-at="2026-02-05T01:29:38 IST" name="Default test" finished-at="2026-02-05T01:29:56 IST" duration-ms="17811">
       <class name="govindu.reddeiah.practiceSelenium.E2ETest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@2a4fb17b]" started-at="2026-02-05T00:27:20 IST" name="setup" finished-at="2026-02-05T00:27:21 IST" duration-ms="1350" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@5c6648b0]" started-at="2026-02-05T01:29:38 IST" name="setup" finished-at="2026-02-05T01:29:39 IST" duration-ms="1548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="BasicE2ETest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@2a4fb17b]" started-at="2026-02-05T00:27:21 IST" name="BasicE2ETest" finished-at="2026-02-05T00:27:30 IST" duration-ms="8623" status="PASS">
+        <test-method signature="BasicE2ETest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@5c6648b0]" started-at="2026-02-05T01:29:39 IST" name="BasicE2ETest" finished-at="2026-02-05T01:29:54 IST" duration-ms="14367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasicE2ETest -->
-        <test-method is-config="true" signature="tierDown()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@2a4fb17b]" started-at="2026-02-05T00:27:30 IST" name="tierDown" finished-at="2026-02-05T00:27:30 IST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@5c6648b0]" started-at="2026-02-05T01:29:54 IST" name="tierDown" finished-at="2026-02-05T01:29:54 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tierDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@2a4fb17b]" started-at="2026-02-05T00:27:30 IST" name="setup" finished-at="2026-02-05T00:27:31 IST" duration-ms="859" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@5c6648b0]" started-at="2026-02-05T01:29:54 IST" name="setup" finished-at="2026-02-05T01:29:55 IST" duration-ms="954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="GoogleTest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@2a4fb17b]" started-at="2026-02-05T00:27:31 IST" name="GoogleTest" finished-at="2026-02-05T00:27:31 IST" duration-ms="421" status="PASS">
+        <test-method signature="GoogleTest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@5c6648b0]" started-at="2026-02-05T01:29:55 IST" name="GoogleTest" finished-at="2026-02-05T01:29:55 IST" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleTest -->
-        <test-method is-config="true" signature="tierDown()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@2a4fb17b]" started-at="2026-02-05T00:27:32 IST" name="tierDown" finished-at="2026-02-05T00:27:32 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@5c6648b0]" started-at="2026-02-05T01:29:55 IST" name="tierDown" finished-at="2026-02-05T01:29:56 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tierDown -->
       </class> <!-- govindu.reddeiah.practiceSelenium.E2ETest -->
-    </test> <!-- BasicTest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

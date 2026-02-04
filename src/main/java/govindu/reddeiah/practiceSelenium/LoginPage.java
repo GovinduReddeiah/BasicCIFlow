@@ -26,12 +26,13 @@ public class LoginPage extends BaseClass{
 	
 	
 	
-	public void Login() {
+	public LogOut Login() {
 
 		userName.sendKeys("Admin");
 		password.sendKeys("admin123");
 		loginBtn.click();
 		System.out.println("Logged in successFully!!");
+		return new LogOut(driver);
 	}
 
 }

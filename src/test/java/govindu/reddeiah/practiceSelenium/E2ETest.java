@@ -9,10 +9,11 @@ import org.testng.annotations.Test;
 public class E2ETest extends BaseTest{
 	
 	@Test
-	public void BasicE2ETest() {
+	public void BasicE2ETest() throws InterruptedException {
 		LoginPage login = new LoginPage(driver);
 		login.launch();
-		login.Login();
+		LogOut logout = login.Login();
+		logout.Logout();
 		
 	}
 	
