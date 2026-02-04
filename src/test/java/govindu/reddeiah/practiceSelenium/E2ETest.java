@@ -1,0 +1,35 @@
+package govindu.reddeiah.practiceSelenium;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class E2ETest {
+	
+	@Test
+	public void BasicE2ETest() {
+		LoginPage login = new LoginPage(BaseClass.driver);
+		login.launch();
+		login.Login();
+	}
+	
+	
+	@Test
+	public void GoogleTest() {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("chrome://newtab");
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	   WebElement input =  (WebElement) js.executeScript(" return document.querySelector('ntp-app').shadowRoot.querySelector('#searchbox')"+
+	    ".shadowRoot.querySelector('#inputWrapper')"+
+	    ".querySelector('#inputInnerContainer')"+
+	    ".querySelector('#input');");
+	   input.sendKeys("Hello");
+	}
+	
+	
+
+
+}
