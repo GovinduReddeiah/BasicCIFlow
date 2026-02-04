@@ -6,11 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class E2ETest {
+public class E2ETest extends BaseTest{
 	
 	@Test
 	public void BasicE2ETest() {
-		LoginPage login = new LoginPage(BaseClass.driver);
+		LoginPage login = new LoginPage(driver);
 		login.launch();
 		login.Login();
 	}
@@ -18,7 +18,7 @@ public class E2ETest {
 	
 	@Test
 	public void GoogleTest() {
-		WebDriver driver = new ChromeDriver();
+		
 		driver.manage().window().maximize();
 		driver.get("chrome://newtab");
 	    JavascriptExecutor js = (JavascriptExecutor) driver;
