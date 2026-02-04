@@ -13,6 +13,7 @@ public class E2ETest extends BaseTest{
 		LoginPage login = new LoginPage(driver);
 		login.launch();
 		login.Login();
+		
 	}
 	
 	

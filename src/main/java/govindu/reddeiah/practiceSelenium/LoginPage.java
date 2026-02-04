@@ -31,6 +31,7 @@ public class LoginPage extends BaseClass{
 		userName.sendKeys("Admin");
 		password.sendKeys("admin123");
 		loginBtn.click();
+		System.out.println("Logged in successFully!!");
 	}
 
 }
