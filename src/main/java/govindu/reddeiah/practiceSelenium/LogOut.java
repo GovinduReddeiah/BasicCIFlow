@@ -25,6 +25,7 @@ public class LogOut {
 		Thread.sleep(1000);
 		logoutBtn.click();
 		System.out.println("Logged Out Successfully!!");
+		System.out.println(" closing Tests!!");
 	}
 	
 	
