@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: govindu.reddeiah.practiceSelenium.E2ETest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.433 s - in govindu.reddeiah.practiceSelenium.E2ETest

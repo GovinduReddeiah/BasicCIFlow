@@ -2,19 +2,35 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-04T01:26:10 IST" name="Surefire suite" finished-at="2026-02-04T01:26:28 IST" duration-ms="17786">
+  <suite started-at="2026-02-05T01:32:53 IST" name="Surefire suite" finished-at="2026-02-05T01:33:07 IST" duration-ms="14249">
     <groups>
     </groups>
-    <test started-at="2026-02-04T01:26:10 IST" name="Surefire test" finished-at="2026-02-04T01:26:28 IST" duration-ms="17786">
+    <test started-at="2026-02-05T01:32:53 IST" name="Surefire test" finished-at="2026-02-05T01:33:07 IST" duration-ms="14249">
       <class name="govindu.reddeiah.practiceSelenium.E2ETest">
-        <test-method signature="BasicE2ETest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@7fc2413d]" started-at="2026-02-04T01:26:10 IST" name="BasicE2ETest" finished-at="2026-02-04T01:26:26 IST" duration-ms="16330" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@d4342c2]" started-at="2026-02-05T01:32:53 IST" name="setup" finished-at="2026-02-05T01:32:55 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BasicE2ETest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@d4342c2]" started-at="2026-02-05T01:32:55 IST" name="BasicE2ETest" finished-at="2026-02-05T01:33:05 IST" duration-ms="10783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasicE2ETest -->
-        <test-method signature="GoogleTest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@7fc2413d]" started-at="2026-02-04T01:26:26 IST" name="GoogleTest" finished-at="2026-02-04T01:26:28 IST" duration-ms="1409" status="PASS">
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@d4342c2]" started-at="2026-02-05T01:33:05 IST" name="tierDown" finished-at="2026-02-05T01:33:06 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@d4342c2]" started-at="2026-02-05T01:33:06 IST" name="setup" finished-at="2026-02-05T01:33:07 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleTest()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@d4342c2]" started-at="2026-02-05T01:33:07 IST" name="GoogleTest" finished-at="2026-02-05T01:33:07 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleTest -->
+        <test-method is-config="true" signature="tierDown()[pri:0, instance:govindu.reddeiah.practiceSelenium.E2ETest@d4342c2]" started-at="2026-02-05T01:33:07 IST" name="tierDown" finished-at="2026-02-05T01:33:07 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tierDown -->
       </class> <!-- govindu.reddeiah.practiceSelenium.E2ETest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
