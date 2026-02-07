@@ -24,6 +24,7 @@ public class LogOut {
 		preLogoutBtn.click();
 		Thread.sleep(1000);
 		logoutBtn.click();
+		System.out.println("Logged Out Successfully!!");
 	}
 	
 	
