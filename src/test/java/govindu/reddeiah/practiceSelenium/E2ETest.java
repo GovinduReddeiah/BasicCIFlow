@@ -29,6 +29,8 @@ public class E2ETest extends BaseTest{
 	    ".querySelector('#inputInnerContainer')"+
 	    ".querySelector('#input');");
 	   input.sendKeys("Hello");
+	   
+	   System.out.println("Succesfully interacted Shadowed DOM!!");
 	}
 	
 	
