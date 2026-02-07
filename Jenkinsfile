@@ -13,7 +13,8 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
-        }        
+        }
+       }        
         post {
         always {
             allure([
@@ -22,7 +23,6 @@ pipeline {
                 results: [[path: 'target/allure-results']]
             ])
         }
-     }
    }
 
 }
