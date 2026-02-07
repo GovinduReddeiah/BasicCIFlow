@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Java CI with Maven + Allure
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest   # you said Windows works better for your tests
+    runs-on: windows-latest
 
     steps:
       - name: Checkout code
@@ -26,8 +26,8 @@ jobs:
       - name: Run tests
         run: mvn test
 
-      - name: Upload test reports
+      - name: Upload Allure results
         uses: actions/upload-artifact@v3
         with:
-          name: surefire-reports
-          path: target/surefire-reports
+          name: allure-results
+          path: target/allure-results
