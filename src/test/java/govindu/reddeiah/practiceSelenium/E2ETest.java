@@ -1,12 +1,14 @@
 package govindu.reddeiah.practiceSelenium;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class E2ETest extends BaseTest{
 	
-	@Test(groups = {"Regression"})
+	@Test
 	public void BasicE2ETest() throws InterruptedException {
 		LoginPage login = new LoginPage(driver);
 		login.launch();
@@ -16,9 +18,10 @@ public class E2ETest extends BaseTest{
 	}
 	
 	
-	@Test(groups = {"Sanity"})
+	@Test
 	public void GoogleTest() {
-		System.out.println("just entering into Sanity Block");
+		
+		driver.manage().window().maximize();
 		driver.get("chrome://newtab");
 	    JavascriptExecutor js = (JavascriptExecutor) driver;
 	   WebElement input =  (WebElement) js.executeScript(" return document.querySelector('ntp-app').shadowRoot.querySelector('#searchbox')"+
@@ -28,11 +31,6 @@ public class E2ETest extends BaseTest{
 	   input.sendKeys("Hello");
 	   
 	   System.out.println("Succesfully interacted Shadowed DOM!!");
-	}
-	
-	@Test(groups = {"Sanity"})
-	public void justTest() {
-		System.out.println("SanityTest");
 	}
 	
 	
