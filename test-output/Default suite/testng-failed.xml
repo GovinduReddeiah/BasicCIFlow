@@ -5,8 +5,8 @@
     <classes>
       <class name="govindu.reddeiah.practiceSelenium.E2ETest">
         <methods>
+          <include name="GoogleTest"/>
           <include name="tierDown"/>
-          <include name="BasicE2ETest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- govindu.reddeiah.practiceSelenium.E2ETest -->
